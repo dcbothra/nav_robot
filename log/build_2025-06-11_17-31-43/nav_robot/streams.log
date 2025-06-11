@@ -1,0 +1,28 @@
+[0.009s] Invoking command in '/home/dcbothra2204/ros2_ws/build/nav_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/ros2_ws/src/nav_robot -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/ros2_ws/install/nav_robot
+[0.022s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.117s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.131s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.160s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.162s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.167s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.188s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.220s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.222s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.316s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.370s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.392s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.392s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.411s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.413s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.510s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.560s] -- Configuring incomplete, errors occurred!
+[0.560s] See also "/home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles/CMakeOutput.log".
+[0.560s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.560s]   ament_target_dependencies() the passed package name 'nav_msgs' was not
+[0.560s]   found before
+[0.560s] Call Stack (most recent call first):
+[0.560s]   CMakeLists.txt:33 (ament_target_dependencies)
+[0.560s] 
+[0.560s] [0m
+[0.570s] Invoked command in '/home/dcbothra2204/ros2_ws/build/nav_robot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/ros2_ws/src/nav_robot -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/ros2_ws/install/nav_robot

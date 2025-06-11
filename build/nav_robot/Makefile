@@ -197,6 +197,43 @@ nav_robot_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nav_robot_uninstall.dir/build.make CMakeFiles/nav_robot_uninstall.dir/build
 .PHONY : nav_robot_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named battery_sim_node
+
+# Build rule for target.
+battery_sim_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 battery_sim_node
+.PHONY : battery_sim_node
+
+# fast build rule for target.
+battery_sim_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_sim_node.dir/build.make CMakeFiles/battery_sim_node.dir/build
+.PHONY : battery_sim_node/fast
+
+scripts/battery_state.o: scripts/battery_state.cpp.o
+.PHONY : scripts/battery_state.o
+
+# target to build an object file
+scripts/battery_state.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_sim_node.dir/build.make CMakeFiles/battery_sim_node.dir/scripts/battery_state.cpp.o
+.PHONY : scripts/battery_state.cpp.o
+
+scripts/battery_state.i: scripts/battery_state.cpp.i
+.PHONY : scripts/battery_state.i
+
+# target to preprocess a source file
+scripts/battery_state.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_sim_node.dir/build.make CMakeFiles/battery_sim_node.dir/scripts/battery_state.cpp.i
+.PHONY : scripts/battery_state.cpp.i
+
+scripts/battery_state.s: scripts/battery_state.cpp.s
+.PHONY : scripts/battery_state.s
+
+# target to generate assembly for a file
+scripts/battery_state.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_sim_node.dir/build.make CMakeFiles/battery_sim_node.dir/scripts/battery_state.cpp.s
+.PHONY : scripts/battery_state.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... nav_robot_uninstall"
 	@echo "... uninstall"
+	@echo "... battery_sim_node"
+	@echo "... scripts/battery_state.o"
+	@echo "... scripts/battery_state.i"
+	@echo "... scripts/battery_state.s"
 .PHONY : help
 
 

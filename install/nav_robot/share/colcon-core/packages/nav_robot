@@ -1,1 +1,1 @@
-ros2launch
+nav_msgs:rclcpp:ros2launch:sensor_msgs

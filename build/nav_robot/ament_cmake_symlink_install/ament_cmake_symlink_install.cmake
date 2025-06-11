@@ -310,8 +310,11 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "urdf" "launch" "config" "DESTINATION" "share/nav_robot")
-ament_cmake_symlink_install_directory("/home/dcbothra2204/ros2_ws/src/nav_robot" DIRECTORY "urdf" "launch" "config" "DESTINATION" "share/nav_robot")
+# install("TARGETS" "battery_sim_node" "DESTINATION" "lib/nav_robot")
+include("/home/dcbothra2204/ros2_ws/build/nav_robot/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "urdf" "launch" "scripts" "worlds" "maps" "config" "config" "DESTINATION" "share/nav_robot")
+ament_cmake_symlink_install_directory("/home/dcbothra2204/ros2_ws/src/nav_robot" DIRECTORY "urdf" "launch" "scripts" "worlds" "maps" "config" "config" "DESTINATION" "share/nav_robot")
 
 # install(FILES "/home/dcbothra2204/ros2_ws/build/nav_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nav_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/dcbothra2204/ros2_ws/src/nav_robot" FILES "/home/dcbothra2204/ros2_ws/build/nav_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nav_robot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

@@ -1,5 +1,6 @@
 /home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles/uninstall.dir
 /home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles/nav_robot_uninstall.dir
+/home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles/battery_sim_node.dir
 /home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles/test.dir
 /home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles/edit_cache.dir
 /home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles/rebuild_cache.dir

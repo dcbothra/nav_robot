@@ -12,6 +12,8 @@ find_package(urdf REQUIRED)
 find_package(xacro REQUIRED)
 find_package(robot_state_publisher REQUIRED)
 find_package(tf2_ros REQUIRED)
+find_package(nav_msgs REQUIRED)
+find_package(yaml-cpp REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -28,6 +30,17 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-install(DIRECTORY urdf launch config DESTINATION share/${PROJECT_NAME})
+target_link_libraries(task_manager_node yaml-cpp)
+
+#
+add_executable(battery_sim_node scripts/battery_state.cpp)
+ament_target_dependencies(battery_sim_node rclcpp sensor_msgs nav_msgs std_srvs geometry_msgs task_manager_node)
+
+install(TARGETS
+  battery_sim_node
+  DESTINATION lib/${PROJECT_NAME})
+#
+
+install(DIRECTORY urdf launch scripts worlds maps config config DESTINATION share/${PROJECT_NAME})
 
 ament_package()
