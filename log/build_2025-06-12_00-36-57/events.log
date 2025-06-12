@@ -1,0 +1,198 @@
+[0.000000] (-) TimerEvent: {}
+[0.000310] (nav_robot) JobQueued: {'identifier': 'nav_robot', 'dependencies': OrderedDict()}
+[0.000343] (nav_robot) JobStarted: {'identifier': 'nav_robot'}
+[0.010413] (nav_robot) JobProgress: {'identifier': 'nav_robot', 'progress': 'cmake'}
+[0.010845] (nav_robot) JobProgress: {'identifier': 'nav_robot', 'progress': 'build'}
+[0.011394] (nav_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dcbothra2204/ros2_ws/build/nav_robot', '--', '-j8', '-l8'], 'cwd': '/home/dcbothra2204/ros2_ws/build/nav_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dcbothra2204'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dcbothra2204/arm_manip/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dcbothra2204'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2458'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install:/home/dcbothra2204/arm_manip/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dcbothra2204'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dcbothra2204'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dcbothra2204/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:@/tmp/.ICE-unix/1618,unix/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:/tmp/.ICE-unix/1618'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12240d9a_961b_44b6_919f_51ff2b5b11c8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AFTT72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot:/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_moveit_config:/home/dcbothra2204/arm_manip/install/ur_description:/home/dcbothra2204/arm_manip/install/ur_control:/home/dcbothra2204/arm_manip/install/trac_ik:/home/dcbothra2204/arm_manip/install/trac_ik_examples:/home/dcbothra2204/arm_manip/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dcbothra2204/ros2_ws/build/nav_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot:/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_moveit_config:/home/dcbothra2204/arm_manip/install/ur_description:/home/dcbothra2204/arm_manip/install/ur_control:/home/dcbothra2204/arm_manip/install/trac_ik:/home/dcbothra2204/arm_manip/install/trac_ik_examples:/home/dcbothra2204/arm_manip/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[0.099817] (-) TimerEvent: {}
+[0.104634] (nav_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199928] (-) TimerEvent: {}
+[0.205454] (nav_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.218556] (nav_robot) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.267279] (nav_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.269705] (nav_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.274928] (nav_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.284961] (nav_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.296059] (nav_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299997] (-) TimerEvent: {}
+[0.326809] (nav_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.328736] (nav_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400103] (-) TimerEvent: {}
+[0.417361] (nav_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.463724] (nav_robot) StdoutLine: {'line': b'-- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)\n'}
+[0.483901] (nav_robot) StdoutLine: {'line': b'-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.486105] (nav_robot) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[0.500283] (-) TimerEvent: {}
+[0.504193] (nav_robot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.505589] (nav_robot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.594270] (nav_robot) StdoutLine: {'line': b'-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.600380] (-) TimerEvent: {}
+[0.612405] (nav_robot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.674077] (nav_robot) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.674219] (nav_robot) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.674272] (nav_robot) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.674486] (nav_robot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.675112] (nav_robot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.675646] (nav_robot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.676570] (nav_robot) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.676658] (nav_robot) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.676883] (nav_robot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.677730] (nav_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.690535] (nav_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[0.692004] (nav_robot) StdoutLine: {'line': b'-- Build files have been written to: /home/dcbothra2204/ros2_ws/build/nav_robot\n'}
+[0.700488] (-) TimerEvent: {}
+[0.713713] (nav_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_sim_node\x1b[0m\n'}
+[0.720694] (nav_robot) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o\x1b[0m\n'}
+[0.742815] (nav_robot) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/battery_sim_node.dir/scripts/battery_state.cpp.o\x1b[0m\n'}
+[0.800601] (-) TimerEvent: {}
+[0.900911] (-) TimerEvent: {}
+[1.001184] (-) TimerEvent: {}
+[1.101454] (-) TimerEvent: {}
+[1.201804] (-) TimerEvent: {}
+[1.302181] (-) TimerEvent: {}
+[1.402614] (-) TimerEvent: {}
+[1.502904] (-) TimerEvent: {}
+[1.603187] (-) TimerEvent: {}
+[1.703458] (-) TimerEvent: {}
+[1.803754] (-) TimerEvent: {}
+[1.904055] (-) TimerEvent: {}
+[2.004332] (-) TimerEvent: {}
+[2.104625] (-) TimerEvent: {}
+[2.204985] (-) TimerEvent: {}
+[2.305342] (-) TimerEvent: {}
+[2.405730] (-) TimerEvent: {}
+[2.506035] (-) TimerEvent: {}
+[2.606319] (-) TimerEvent: {}
+[2.706709] (-) TimerEvent: {}
+[2.807092] (-) TimerEvent: {}
+[2.907415] (-) TimerEvent: {}
+[2.979603] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus GetNextGoal::tick()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.979827] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:80:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kblackboard\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.979880] (nav_robot) StderrLine: {'line': b'   80 |     \x1b[01;31m\x1b[Kblackboard\x1b[m\x1b[K()->get("charging_mode", charging);\n'}
+[2.979921] (nav_robot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.988130] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid GetNextGoal::declareAndLoadPoses()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.988326] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:127:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kblackboard\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.988378] (nav_robot) StderrLine: {'line': b'  127 |       \x1b[01;31m\x1b[Kblackboard\x1b[m\x1b[K()->set("charging_station", charging_pose_);\n'}
+[2.988419] (nav_robot) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.007538] (-) TimerEvent: {}
+[3.030209] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus CheckBatteryLevel::tick()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.030374] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:187:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kblackboard\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.030440] (nav_robot) StderrLine: {'line': b'  187 |     \x1b[01;31m\x1b[Kblackboard\x1b[m\x1b[K()->set("charging_mode", low);\n'}
+[3.030482] (nav_robot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.037945] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual BT::NodeStatus ResumeLastTask::tick()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.038119] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:229:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kblackboard\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.038189] (nav_robot) StderrLine: {'line': b'  229 |     \x1b[01;31m\x1b[Kblackboard\x1b[m\x1b[K()->set("charging_mode", false);\n'}
+[3.038232] (nav_robot) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.107661] (-) TimerEvent: {}
+[3.207956] (-) TimerEvent: {}
+[3.308347] (-) TimerEvent: {}
+[3.408731] (-) TimerEvent: {}
+[3.509104] (-) TimerEvent: {}
+[3.583436] (nav_robot) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39\x1b[m\x1b[K,\n'}
+[3.583658] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.583702] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.583740] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.583776] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.583811] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.583847] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.583883] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.583919] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.583954] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.583998] (nav_robot) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:5\x1b[m\x1b[K:\n'}
+[3.584043] (nav_robot) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.584082] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:\x1b[m\x1b[K   recursively required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT> struct rclcpp::detail::SubscriptionCallbackTypeHelper<MessageT, CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value, void>::type> [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.584133] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; AllocatorT = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.584181] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = sensor_msgs::msg::BatteryState_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.584227] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = sensor_msgs::msg::BatteryState_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.584270] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.584314] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.584355] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:174:70:\x1b[m\x1b[K   required from here\n'}
+[3.584392] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:51:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[3.584429] (nav_robot) StderrLine: {'line': b'   51 |   using \x1b[01;31m\x1b[Karguments\x1b[m\x1b[K = typename tuple_tail<\n'}
+[3.584467] (nav_robot) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.584502] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:57:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[3.584538] (nav_robot) StderrLine: {'line': b'   57 |   using \x1b[01;31m\x1b[Kargument_type\x1b[m\x1b[K = typename std::tuple_element<N, arguments>::type;\n'}
+[3.584573] (nav_robot) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.584607] (nav_robot) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:59:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdecltype\x1b[m\x1b[K\xe2\x80\x99 cannot resolve address of overloaded function\n'}
+[3.584643] (nav_robot) StderrLine: {'line': b'   59 |   using \x1b[01;31m\x1b[Kreturn_type\x1b[m\x1b[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;\n'}
+[3.584688] (nav_robot) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.609213] (-) TimerEvent: {}
+[3.709596] (-) TimerEvent: {}
+[3.809895] (-) TimerEvent: {}
+[3.910185] (-) TimerEvent: {}
+[4.010533] (-) TimerEvent: {}
+[4.110838] (-) TimerEvent: {}
+[4.211152] (-) TimerEvent: {}
+[4.311453] (-) TimerEvent: {}
+[4.411759] (-) TimerEvent: {}
+[4.512082] (-) TimerEvent: {}
+[4.612468] (-) TimerEvent: {}
+[4.712836] (-) TimerEvent: {}
+[4.813117] (-) TimerEvent: {}
+[4.913387] (-) TimerEvent: {}
+[5.013681] (-) TimerEvent: {}
+[5.114001] (-) TimerEvent: {}
+[5.214257] (-) TimerEvent: {}
+[5.314579] (-) TimerEvent: {}
+[5.415054] (-) TimerEvent: {}
+[5.515595] (-) TimerEvent: {}
+[5.616116] (-) TimerEvent: {}
+[5.716568] (-) TimerEvent: {}
+[5.817092] (-) TimerEvent: {}
+[5.917563] (-) TimerEvent: {}
+[6.017950] (-) TimerEvent: {}
+[6.118241] (-) TimerEvent: {}
+[6.218634] (-) TimerEvent: {}
+[6.319044] (-) TimerEvent: {}
+[6.419463] (-) TimerEvent: {}
+[6.452314] (nav_robot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bt_plugin_node.dir/build.make:76: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o] Error 1\n'}
+[6.452774] (nav_robot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/bt_plugin_node.dir/all] Error 2\n'}
+[6.452978] (nav_robot) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[6.519616] (-) TimerEvent: {}
+[6.620036] (-) TimerEvent: {}
+[6.720392] (-) TimerEvent: {}
+[6.820714] (-) TimerEvent: {}
+[6.921092] (-) TimerEvent: {}
+[7.021339] (-) TimerEvent: {}
+[7.121620] (-) TimerEvent: {}
+[7.221984] (-) TimerEvent: {}
+[7.322346] (-) TimerEvent: {}
+[7.422624] (-) TimerEvent: {}
+[7.522908] (-) TimerEvent: {}
+[7.623169] (-) TimerEvent: {}
+[7.723439] (-) TimerEvent: {}
+[7.823779] (-) TimerEvent: {}
+[7.924113] (-) TimerEvent: {}
+[8.024449] (-) TimerEvent: {}
+[8.124726] (-) TimerEvent: {}
+[8.225082] (-) TimerEvent: {}
+[8.325351] (-) TimerEvent: {}
+[8.425633] (-) TimerEvent: {}
+[8.525996] (-) TimerEvent: {}
+[8.626427] (-) TimerEvent: {}
+[8.726879] (-) TimerEvent: {}
+[8.827497] (-) TimerEvent: {}
+[8.928108] (-) TimerEvent: {}
+[9.028688] (-) TimerEvent: {}
+[9.129262] (-) TimerEvent: {}
+[9.229911] (-) TimerEvent: {}
+[9.330538] (-) TimerEvent: {}
+[9.431171] (-) TimerEvent: {}
+[9.531763] (-) TimerEvent: {}
+[9.632303] (-) TimerEvent: {}
+[9.732698] (-) TimerEvent: {}
+[9.832968] (-) TimerEvent: {}
+[9.933329] (-) TimerEvent: {}
+[10.033701] (-) TimerEvent: {}
+[10.134071] (-) TimerEvent: {}
+[10.222461] (nav_robot) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable battery_sim_node\x1b[0m\n'}
+[10.234166] (-) TimerEvent: {}
+[10.334410] (-) TimerEvent: {}
+[10.434724] (-) TimerEvent: {}
+[10.535002] (-) TimerEvent: {}
+[10.633566] (nav_robot) StdoutLine: {'line': b'[ 75%] Built target battery_sim_node\n'}
+[10.634471] (nav_robot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.635032] (-) TimerEvent: {}
+[10.648000] (nav_robot) CommandEnded: {'returncode': 2}
+[10.691630] (nav_robot) JobEnded: {'identifier': 'nav_robot', 'rc': 2}
+[10.702126] (-) EventReactorShutdown: {}

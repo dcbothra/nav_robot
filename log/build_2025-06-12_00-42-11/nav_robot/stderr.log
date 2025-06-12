@@ -1,0 +1,136 @@
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:77:18:[m[K [01;31m[Kerror: [m[Kvirtual function ‘[01m[Kvirtual BT::NodeStatus GetNextGoal::tick()[m[K’ overriding final function
+   77 |   BT::NodeStatus [01;31m[Ktick[m[K() override
+      |                  [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:25[m[K,
+                 from [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/action_node.h:161:14:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual BT::NodeStatus BT::StatefulActionNode::tick()[m[K’
+  161 |   NodeStatus [01;36m[Ktick[m[K() override final;
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus GetNextGoal::tick()[m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kblackboard[m[K’ was not declared in this scope
+   80 |     [01;31m[Kblackboard[m[K()->get("charging_mode", charging);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:[m[K In member function ‘[01m[Kvoid GetNextGoal::declareAndLoadPoses()[m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:127:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kblackboard[m[K’ was not declared in this scope
+  127 |       [01;31m[Kblackboard[m[K()->set("charging_station", charging_pose_);
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus CheckBatteryLevel::tick()[m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:187:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kblackboard[m[K’ was not declared in this scope
+  187 |     [01;31m[Kblackboard[m[K()->set("charging_mode", low);
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:[m[K At global scope:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:231:18:[m[K [01;31m[Kerror: [m[Kvirtual function ‘[01m[Kvirtual BT::NodeStatus ResumeLastTask::tick()[m[K’ overriding final function
+  231 |   BT::NodeStatus [01;31m[Ktick[m[K() override
+      |                  [01;31m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:25[m[K,
+                 from [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/action_node.h:161:14:[m[K [01;36m[Knote: [m[Koverridden function is ‘[01m[Kvirtual BT::NodeStatus BT::StatefulActionNode::tick()[m[K’
+  161 |   NodeStatus [01;36m[Ktick[m[K() override final;
+      |              [01;36m[K^~~~[m[K
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus ResumeLastTask::tick()[m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:233:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kblackboard[m[K’ was not declared in this scope
+  233 |     [01;31m[Kblackboard[m[K()->set("charging_mode", false);
+      |     [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:1[m[K:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = GetNextGoal; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:242:40:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:374:19:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: Some methods are pure virtual. Did you override the methods tick() and halt()?
+  374 |     static_assert([01;31m[K!std::is_abstract<T>::value[m[K, "[registerNode]: Some methods are pure "
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:374:19:[m[K [01;36m[Knote: [m[K‘[01m[K!(bool)std::integral_constant<bool, true>::value[m[K’ evaluates to false
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:385:41:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: the registered class must have at least one of these two constructors:   (const std::string&, const NodeConfiguration&) or (const std::string&).
+Check also if the constructor is public!
+  385 |     static_assert([01;31m[Kdefault_constructable || param_constructable[m[K, "[registerNode]: the "
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:385:41:[m[K [01;36m[Knote: [m[K‘[01m[K(((bool)default_constructable) || ((bool)param_constructable))[m[K’ evaluates to false
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: since you have a static method providedPorts(), you MUST add a constructor sign signature (const std::string&, const NodeParameters&)
+
+  407 |     static_assert([01;31m[K!(has_static_ports_list && !param_constructable)[m[K, "[registerNode]: "
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;36m[Knote: [m[K‘[01m[K((!(bool)has_static_ports_list) || ((bool)param_constructable))[m[K’ evaluates to false
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCreateBuilder<GetNextGoal>()[m[K’
+  418 |     registerBuilder(CreateManifest<T>(ID), [01;31m[KCreateBuilder<T>()[m[K);
+      |                                            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*)[m[K’
+   43 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<has_default_constructor<T>::value &&
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*) [with T = GetNextGoal][m[K’:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = GetNextGoal; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:242:40:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = GetNextGoal; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:242:40:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<((! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value) && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*)[m[K’
+   59 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<!has_default_constructor<T>::value &&
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<((! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value) && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*) [with T = GetNextGoal][m[K’:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = GetNextGoal; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:242:40:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = GetNextGoal; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:242:40:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && (! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value))>::type*)[m[K’
+   69 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<has_default_constructor<T>::value &&
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && (! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value))>::type*) [with T = GetNextGoal][m[K’:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = GetNextGoal; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:242:40:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+In file included from [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:1[m[K:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = ResumeLastTask; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:246:43:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:374:19:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: Some methods are pure virtual. Did you override the methods tick() and halt()?
+  374 |     static_assert([01;31m[K!std::is_abstract<T>::value[m[K, "[registerNode]: Some methods are pure "
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:374:19:[m[K [01;36m[Knote: [m[K‘[01m[K!(bool)std::integral_constant<bool, true>::value[m[K’ evaluates to false
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:385:41:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: the registered class must have at least one of these two constructors:   (const std::string&, const NodeConfiguration&) or (const std::string&).
+Check also if the constructor is public!
+  385 |     static_assert([01;31m[Kdefault_constructable || param_constructable[m[K, "[registerNode]: the "
+      |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:385:41:[m[K [01;36m[Knote: [m[K‘[01m[K(((bool)default_constructable) || ((bool)param_constructable))[m[K’ evaluates to false
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: [registerNode]: since you have a static method providedPorts(), you MUST add a constructor sign signature (const std::string&, const NodeParameters&)
+
+  407 |     static_assert([01;31m[K!(has_static_ports_list && !param_constructable)[m[K, "[registerNode]: "
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:407:19:[m[K [01;36m[Knote: [m[K‘[01m[K((!(bool)has_static_ports_list) || ((bool)param_constructable))[m[K’ evaluates to false
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCreateBuilder<ResumeLastTask>()[m[K’
+  418 |     registerBuilder(CreateManifest<T>(ID), [01;31m[KCreateBuilder<T>()[m[K);
+      |                                            [01;31m[K~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*)[m[K’
+   43 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<has_default_constructor<T>::value &&
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*) [with T = ResumeLastTask][m[K’:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = ResumeLastTask; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:246:43:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:43:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = ResumeLastTask; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:246:43:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<((! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value) && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*)[m[K’
+   59 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<!has_default_constructor<T>::value &&
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<((! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value) && std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value)>::type*) [with T = ResumeLastTask][m[K’:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = ResumeLastTask; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:246:43:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:59:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In instantiation of ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = ResumeLastTask; std::string = std::__cxx11::basic_string<char>][m[K’:
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:246:43:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && (! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value))>::type*)[m[K’
+   69 | [01;36m[KCreateBuilder[m[K(typename std::enable_if<has_default_constructor<T>::value &&
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h: In substitution of ‘[01m[Ktemplate<class T> BT::NodeBuilder BT::CreateBuilder(typename std::enable_if<(std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>::value && (! std::is_constructible<T, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, const BT::NodeConfiguration&>::value))>::type*) [with T = ResumeLastTask][m[K’:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:418:60:[m[K   required from ‘[01m[Kvoid BT::BehaviorTreeFactory::registerNodeType(const string&) [with T = ResumeLastTask; std::string = std::__cxx11::basic_string<char>][m[K’
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:246:43:[m[K   required from here
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:69:1:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+gmake[2]: *** [CMakeFiles/bt_plugin_node.dir/build.make:76: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/bt_plugin_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

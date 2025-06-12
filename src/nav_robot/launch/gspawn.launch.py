@@ -97,17 +97,17 @@ def generate_launch_description():
     )
 
     delayed_lifecycle_node = TimerAction(
-        period=10.0,  # seconds
+        period=10.0,
         actions=[lifecycle_node]
     )
 
     delayed_nav_node = TimerAction(
-        period=5.0,  # seconds
+        period=5.0,
         actions=[nav_node]
     )
 
     # delayed_initial_pose_node = TimerAction(
-    #     period=5.0,  # seconds
+    #     period=5.0,
     #     actions=[initial_pose_node]
     # )
 
@@ -117,7 +117,7 @@ def generate_launch_description():
             name='battery_simulator',
             output='screen',
             parameters=[{
-                'battery_capacity': 100.0,  # optional parameters
+                'battery_capacity': 100.0,
                 'battery_drain_rate': 0.05
             }]
         )

@@ -1,0 +1,20 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Fallback name="BatteryCheckOrCharge">
+      <!-- Battery OK -->
+      <Sequencee name="BatteryOKSequence">
+        <CheckBatteryLevel/>
+        <GetNextGoal goal="{goal}"/>
+        <NavigateToPose goal="{goal}"/>
+        <DoPickDrop/>
+      </Sequence>
+      <!-- Battery LOW -->
+      <Sequence name="ChargeAndResumeSequence">
+        <GetNextGoal goal="{goal}"/>
+        <NavigateToPose goal="{goal}"/>
+        <SimulateCharging/>
+        <ResumeLastTask/>
+      </Sequence>
+    </Fallback>
+  </BehaviorTree>
+</root>

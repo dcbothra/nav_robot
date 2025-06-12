@@ -2,11 +2,13 @@
 #include <cmath>
 #include <memory>
 
-// Including only those packages that we need.
+// Included only those packages that are needed.
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/battery_state.hpp"
 #include "nav_msgs/msg/odometry.hpp"
+#include "geometry_msgs/msg/point.hpp"
 
+// certain namespaces for pubs and subs callbacks
 using std::placeholders::_1;
 using namespace std::chrono_literals;
 
@@ -19,7 +21,7 @@ public:
         odom_sub_ = this->create_subscription<nav_msgs::msg::Odometry>("odom", 10, std::bind(&BatterySimulator::odomCallback, this, _1));
         timer_ = this->create_wall_timer(1s, std::bind(&BatterySimulator::timerCallback, this));
 
-        RCLCPP_INFO(this->get_logger(), "🔋 Battery simulator node started.");
+        RCLCPP_INFO(this->get_logger(), "Battery simulator node started.");
     }
 
 private:
@@ -58,23 +60,22 @@ private:
 
     void timerCallback()
     {
-        // Drain for idle operation
+        // Idle
         battery_level_ -= 0.0005;
 
-        // Additional drain if moving
+        // Moving
         if (moving_) {
             battery_level_ -= 0.002;
         }
 
-        // Charge if at charging station
+        // Charging
         if (isAtChargingStation(last_position_)) {
             battery_level_ += 0.01;
         }
 
-        // Clamp battery level
+        // Clamping between 0 and 1
         battery_level_ = std::clamp(battery_level_, 0.0, 1.0);
 
-        // Publish battery state
         auto msg = sensor_msgs::msg::BatteryState();
         msg.percentage = battery_level_;
         msg.voltage = 12.0 * battery_level_;
@@ -85,7 +86,7 @@ private:
 
         battery_pub_->publish(msg);
 
-        RCLCPP_INFO(this->get_logger(), "🔋 Battery: %.1f%%", battery_level_ * 100.0);
+        RCLCPP_INFO(this->get_logger(), "Battery: %.1f%%", battery_level_ * 100.0);
     }
 };
 

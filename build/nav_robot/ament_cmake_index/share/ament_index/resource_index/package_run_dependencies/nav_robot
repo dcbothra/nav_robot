@@ -1,1 +1,1 @@
-rclcpp;sensor_msgs;nav_msgs;ros2launch;ament_lint_auto;ament_lint_common
+rclcpp;sensor_msgs;nav_msgs;yaml-cpp;geometry_msgs;ament_index_cpp;urdf;xacro;robot_state_publisher;tf2_ros;nav2_bt_navigator;ros2launch;nav2_behavior_tree;pluginlib;nav2_navfn_planner;ament_lint_auto;ament_lint_common

@@ -20,7 +20,7 @@ waypoints:
           z: 0.0
         orientation:
           z: 0.707
-          w: 0.707  # 90 degrees (station B)
+          w: 0.707
   - pose:
       header:
         frame_id: "map"
@@ -31,7 +31,7 @@ waypoints:
           z: 0.0
         orientation:
           z: 1.0
-          w: 0.0  # 180 degrees (station C)
+          w: 0.0
   - pose:
       header:
         frame_id: "map"
@@ -42,7 +42,7 @@ waypoints:
           z: 0.0
         orientation:
           z: 0.0
-          w: 1.0  # 0 degrees (station D)
+          w: 1.0
 
 charging:
   - pose:

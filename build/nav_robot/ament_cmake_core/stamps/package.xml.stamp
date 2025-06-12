@@ -13,12 +13,37 @@
   <test_depend>ament_lint_common</test_depend>
 
   <exec_depend>ros2launch</exec_depend>
+  <exec_depend>nav2_behavior_tree</exec_depend>
+  <exec_depend>pluginlib</exec_depend>
+  <exec_depend>nav2_navfn_planner</exec_depend>
 
   <depend>rclcpp</depend>
   <depend>sensor_msgs</depend>
   <depend>nav_msgs</depend>
+  <depend>yaml-cpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>ament_index_cpp</depend>
+  <depend>urdf</depend>
+  <depend>xacro</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>tf2_ros</depend>
+  <depend>nav2_bt_navigator</depend>
+
+  <!-- <depend>nav2_msgs</depend>
+  <depend>nav2_util</depend>
+  <depend>nav2_common</depend>
+  <depend>nav2_costmap_2d</depend>
+  <depend>nav2_navfn_planner</depend>
+  <depend>nav2_controller</depend>
+  <depend>nav2_planner</depend>
+  <depend>nav2_planner_server</depend>
+  <depend>nav2_recoveries</depend>
+  <depend>nav2_smoother</depend>
+  <depend>nav2_voxel_grid</depend>
+  <depend>nav2_waypoint_follower</depend> -->
 
   <export>
     <build_type>ament_cmake</build_type>
+    <nav2_behavior_tree plugin="${prefix}/behaviour_tree/bt_plugins.xml"/>
   </export>
 </package>

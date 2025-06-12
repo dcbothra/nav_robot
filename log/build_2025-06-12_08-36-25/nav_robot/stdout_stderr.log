@@ -1,0 +1,90 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+-- Found nav2_behavior_tree: 1.1.18 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dcbothra2204/ros2_ws/build/nav_robot
+[35m[1mConsolidate compiler generated dependencies of target battery_sim_node[0m
+[35m[1mConsolidate compiler generated dependencies of target bt_nodes[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/bt_nodes.dir/behaviour_tree/bt_nodes.cpp.o[0m
+[ 75%] Built target battery_sim_node
+In file included from [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:113:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+  113 |   BTCPP_EXPORT void [01;35m[KBT_RegisterNodesFromPlugin[m[K(BT::BehaviorTreeFactory& factory)
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:232:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KBT_REGISTER_NODES[m[K’
+  232 | [01;36m[KBT_REGISTER_NODES[m[K(factory)
+      | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library libbt_nodes.so[0m
+[100%] Built target bt_nodes
+-- Install configuration: ""
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/library_path.sh
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/library_path.dsv
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/lib/nav_robot/battery_sim_node
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/lib/libbt_nodes.so
+-- Set runtime path of "/home/dcbothra2204/ros2_ws/install/nav_robot/lib/libbt_nodes.so" to ""
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/gazebo_diff_control.xacro
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/robot_core.xacro
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/inertial_macros.xacro
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/colors.xacro
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/imu.xacro
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/lidar.xacro
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/robot.urdf.xacro
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/bt_nav.launch.py
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/display.launch.py
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/gspawn.launch.py
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/worlds
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/worlds/gazebo.world
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/amcl_map.yaml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/nav_map.pgm
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/amcl_map.pgm
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/nav_map.yaml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/poses.yaml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/view_bot.rviz
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/amcl.yaml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/nav2_params.yaml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/my_controllers.yaml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/mapper_params_online_async.yaml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_nodes.cpp
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/task_bt.xml
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/package_run_dependencies/nav_robot
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/parent_prefix_path/nav_robot
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/ament_prefix_path.sh
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/path.sh
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/path.dsv
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.bash
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.sh
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.zsh
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.dsv
+-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/package.dsv
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/packages/nav_robot
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/nav2_behavior_tree__pluginlib__plugin/nav_robot
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/nav_robotConfig.cmake
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/nav_robotConfig-version.cmake
+-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/package.xml

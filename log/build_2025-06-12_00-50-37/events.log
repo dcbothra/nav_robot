@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000413] (nav_robot) JobQueued: {'identifier': 'nav_robot', 'dependencies': OrderedDict()}
+[0.000558] (nav_robot) JobStarted: {'identifier': 'nav_robot'}
+[0.007372] (nav_robot) JobProgress: {'identifier': 'nav_robot', 'progress': 'cmake'}
+[0.007884] (nav_robot) JobProgress: {'identifier': 'nav_robot', 'progress': 'build'}
+[0.008497] (nav_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dcbothra2204/ros2_ws/build/nav_robot', '--', '-j8', '-l8'], 'cwd': '/home/dcbothra2204/ros2_ws/build/nav_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dcbothra2204'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dcbothra2204/arm_manip/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dcbothra2204'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2458'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install:/home/dcbothra2204/arm_manip/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dcbothra2204'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dcbothra2204'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dcbothra2204/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:@/tmp/.ICE-unix/1618,unix/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:/tmp/.ICE-unix/1618'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/12240d9a_961b_44b6_919f_51ff2b5b11c8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AFTT72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot:/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_moveit_config:/home/dcbothra2204/arm_manip/install/ur_description:/home/dcbothra2204/arm_manip/install/ur_control:/home/dcbothra2204/arm_manip/install/trac_ik:/home/dcbothra2204/arm_manip/install/trac_ik_examples:/home/dcbothra2204/arm_manip/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dcbothra2204/ros2_ws/build/nav_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot:/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_moveit_config:/home/dcbothra2204/arm_manip/install/ur_description:/home/dcbothra2204/arm_manip/install/ur_control:/home/dcbothra2204/arm_manip/install/trac_ik:/home/dcbothra2204/arm_manip/install/trac_ik_examples:/home/dcbothra2204/arm_manip/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[0.042541] (nav_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bt_plugin_node\x1b[0m\n'}
+[0.051571] (nav_robot) StdoutLine: {'line': b'[ 50%] Built target battery_sim_node\n'}
+[0.055435] (nav_robot) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o\x1b[0m\n'}
+[0.099905] (-) TimerEvent: {}
+[0.200218] (-) TimerEvent: {}
+[0.300652] (-) TimerEvent: {}
+[0.401024] (-) TimerEvent: {}
+[0.501291] (-) TimerEvent: {}
+[0.601649] (-) TimerEvent: {}
+[0.702031] (-) TimerEvent: {}
+[0.802346] (-) TimerEvent: {}
+[0.902715] (-) TimerEvent: {}
+[1.003078] (-) TimerEvent: {}
+[1.103454] (-) TimerEvent: {}
+[1.203741] (-) TimerEvent: {}
+[1.304039] (-) TimerEvent: {}
+[1.404329] (-) TimerEvent: {}
+[1.504647] (-) TimerEvent: {}
+[1.605039] (-) TimerEvent: {}
+[1.705423] (-) TimerEvent: {}
+[1.805760] (-) TimerEvent: {}
+[1.906115] (-) TimerEvent: {}
+[2.006468] (-) TimerEvent: {}
+[2.106796] (-) TimerEvent: {}
+[2.207129] (-) TimerEvent: {}
+[2.307545] (-) TimerEvent: {}
+[2.407838] (-) TimerEvent: {}
+[2.508144] (-) TimerEvent: {}
+[2.608431] (-) TimerEvent: {}
+[2.708732] (-) TimerEvent: {}
+[2.809057] (-) TimerEvent: {}
+[2.909331] (-) TimerEvent: {}
+[3.009696] (-) TimerEvent: {}
+[3.110084] (-) TimerEvent: {}
+[3.210511] (-) TimerEvent: {}
+[3.310806] (-) TimerEvent: {}
+[3.412077] (-) TimerEvent: {}
+[3.512534] (-) TimerEvent: {}
+[3.612901] (-) TimerEvent: {}
+[3.713281] (-) TimerEvent: {}
+[3.813590] (-) TimerEvent: {}
+[3.913949] (-) TimerEvent: {}
+[4.014235] (-) TimerEvent: {}
+[4.114567] (-) TimerEvent: {}
+[4.214920] (-) TimerEvent: {}
+[4.315304] (-) TimerEvent: {}
+[4.415649] (-) TimerEvent: {}
+[4.516011] (-) TimerEvent: {}
+[4.616367] (-) TimerEvent: {}
+[4.716731] (-) TimerEvent: {}
+[4.817078] (-) TimerEvent: {}
+[4.917419] (-) TimerEvent: {}
+[5.017700] (-) TimerEvent: {}
+[5.117998] (-) TimerEvent: {}
+[5.218372] (-) TimerEvent: {}
+[5.318720] (-) TimerEvent: {}
+[5.419084] (-) TimerEvent: {}
+[5.519448] (-) TimerEvent: {}
+[5.619798] (-) TimerEvent: {}
+[5.720132] (-) TimerEvent: {}
+[5.820488] (-) TimerEvent: {}
+[5.920838] (-) TimerEvent: {}
+[6.021200] (-) TimerEvent: {}
+[6.121561] (-) TimerEvent: {}
+[6.221904] (-) TimerEvent: {}
+[6.322251] (-) TimerEvent: {}
+[6.422536] (-) TimerEvent: {}
+[6.522900] (-) TimerEvent: {}
+[6.623265] (-) TimerEvent: {}
+[6.723553] (-) TimerEvent: {}
+[6.823927] (-) TimerEvent: {}
+[6.873389] (nav_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bt_plugin_node\x1b[0m\n'}
+[6.924043] (-) TimerEvent: {}
+[7.024369] (-) TimerEvent: {}
+[7.124752] (-) TimerEvent: {}
+[7.206914] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: warning: relocation against `_ZTVN4YAML13BadConversionE' in read-only section `.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]'\n"}
+[7.224894] (-) TimerEvent: {}
+[7.227216] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[7.227382] (nav_robot) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[7.231335] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::Exception::Exception(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[7.231499] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML9ExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML9ExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x61): undefined reference to `vtable for YAML::Exception'\n"}
+[7.231727] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::RepresentationException::RepresentationException(YAML::Mark const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[7.231810] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML23RepresentationExceptionC2ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML23RepresentationExceptionC5ERKNS_4MarkERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x32): undefined reference to `vtable for YAML::RepresentationException'\n"}
+[7.232307] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::InvalidNode::InvalidNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[7.232423] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML11InvalidNodeC2ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML11InvalidNodeC5ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x71): undefined reference to `vtable for YAML::InvalidNode'\n"}
+[7.232764] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::BadConversion::BadConversion(YAML::Mark const&)':\n"}
+[7.232821] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML13BadConversionC2ERKNS_4MarkE[_ZN4YAML13BadConversionC5ERKNS_4MarkE]+0x7c): undefined reference to `vtable for YAML::BadConversion'\n"}
+[7.233370] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::memory_holder::create_node()':\n"}
+[7.233470] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail13memory_holder11create_nodeEv[_ZN4YAML6detail13memory_holder11create_nodeEv]+0x20): undefined reference to `YAML::detail::memory::create_node()'\n"}
+[7.233721] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node_ref::mark_defined()':\n"}
+[7.233771] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail8node_ref12mark_definedEv[_ZN4YAML6detail8node_ref12mark_definedEv]+0x20): undefined reference to `YAML::detail::node_data::mark_defined()'\n"}
+[7.234314] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node_ref::set_null()':\n"}
+[7.234420] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail8node_ref8set_nullEv[_ZN4YAML6detail8node_ref8set_nullEv]+0x20): undefined reference to `YAML::detail::node_data::set_null()'\n"}
+[7.234802] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node_ref::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)':\n"}
+[7.234865] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE[_ZN4YAML6detail8node_ref10set_scalarERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE]+0x2e): undefined reference to `YAML::detail::node_data::set_scalar(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[7.235392] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node_ref::begin()':\n"}
+[7.235503] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail8node_ref5beginEv[_ZN4YAML6detail8node_ref5beginEv]+0x3d): undefined reference to `YAML::detail::node_data::begin()'\n"}
+[7.235840] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node_ref::end()':\n"}
+[7.235887] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail8node_ref3endEv[_ZN4YAML6detail8node_ref3endEv]+0x3d): undefined reference to `YAML::detail::node_data::end()'\n"}
+[7.236439] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::Node::EnsureNodeExists() const':\n"}
+[7.236550] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[7.236688] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML4Node16EnsureNodeExistsEv[_ZNK4YAML4Node16EnsureNodeExistsEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[7.237243] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::Node::Mark() const':\n"}
+[7.237350] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[7.237565] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML4Node4MarkEv[_ZNK4YAML4Node4MarkEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[7.237917] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::Node::Type() const':\n"}
+[7.237966] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[7.238231] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML4Node4TypeEv[_ZNK4YAML4Node4TypeEv]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[7.238731] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::Node::Scalar[abi:cxx11]() const':\n"}
+[7.238778] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x44): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[7.238915] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x4e): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[7.239183] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML4Node6ScalarB5cxx11Ev[_ZNK4YAML4Node6ScalarB5cxx11Ev]+0x7d): undefined reference to `YAML::detail::node_data::empty_scalar[abi:cxx11]()'\n"}
+[7.239731] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `GetNextGoal::declareAndLoadPoses()':\n"}
+[7.239772] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN11GetNextGoal19declareAndLoadPosesEv[_ZN11GetNextGoal19declareAndLoadPosesEv]+0x24a): undefined reference to `YAML::LoadFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'\n"}
+[7.240519] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > YAML::Node::as<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >() const':\n"}
+[7.240585] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x57): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[7.240718] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v[_ZNK4YAML4Node2asINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_v]+0x61): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[7.241172] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `double YAML::Node::as<double>() const':\n"}
+[7.241261] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x53): undefined reference to `YAML::InvalidNode::~InvalidNode()'\n"}
+[7.241480] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML4Node2asIdEET_v[_ZNK4YAML4Node2asIdEET_v]+0x5d): undefined reference to `typeinfo for YAML::InvalidNode'\n"}
+[7.242296] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::TypedBadConversion<double>::~TypedBadConversion()':\n"}
+[7.242358] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML18TypedBadConversionIdED2Ev[_ZN4YAML18TypedBadConversionIdED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'\n"}
+[7.243463] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<char [7]>(char const (&) [7], std::shared_ptr<YAML::detail::memory_holder>) const':\n"}
+[7.243540] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA7_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA7_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xf7): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[7.243839] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA7_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA7_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x101): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[7.244158] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>) const':\n"}
+[7.244226] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA9_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA9_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xf7): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[7.244527] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA9_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA9_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x101): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[7.244865] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<char [5]>(char const (&) [5], std::shared_ptr<YAML::detail::memory_holder>) const':\n"}
+[7.244918] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA5_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA5_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xf7): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[7.245142] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA5_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA5_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x101): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[7.245545] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<char [2]>(char const (&) [2], std::shared_ptr<YAML::detail::memory_holder>) const':\n"}
+[7.245586] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA2_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA2_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xf7): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[7.245665] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA2_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA2_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x101): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[7.246024] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node* YAML::detail::node_data::get<char [12]>(char const (&) [12], std::shared_ptr<YAML::detail::memory_holder>) const':\n"}
+[7.246069] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA12_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA12_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xf7): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[7.246237] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZNK4YAML6detail9node_data3getIA12_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZNK4YAML6detail9node_data3getIA12_cEEPNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x101): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[7.246689] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [10]>(char const (&) [10], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[7.246752] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[7.246967] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[7.247219] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[7.247427] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[7.247813] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[7.247866] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[7.248047] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[7.248277] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[7.248487] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[7.248856] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<int>(int const&, std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[7.248907] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[7.249098] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[7.249343] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[7.249563] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[7.249902] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::get<char [5]>(char const (&) [5], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[7.249951] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0xd3): undefined reference to `YAML::detail::node_data::convert_to_map(std::shared_ptr<YAML::detail::memory_holder> const&)'\n"}
+[7.250120] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x103): undefined reference to `YAML::BadSubscript::~BadSubscript()'\n"}
+[7.250340] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x10d): undefined reference to `typeinfo for YAML::BadSubscript'\n"}
+[7.250554] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: bt_nodes.cpp:(.text._ZN4YAML6detail9node_data3getIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data3getIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x1fb): undefined reference to `YAML::detail::node_data::insert_map_pair(YAML::detail::node&, YAML::detail::node&)'\n"}
+[7.252264] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [7]>(YAML::Mark const&, char const (&) [7])':\n"}
+[7.252384] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML12BadSubscriptC2IA7_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA7_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[7.253130] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [9]>(YAML::Mark const&, char const (&) [9])':\n"}
+[7.253194] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML12BadSubscriptC2IA9_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA9_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[7.254015] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [5]>(YAML::Mark const&, char const (&) [5])':\n"}
+[7.254096] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML12BadSubscriptC2IA5_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA5_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[7.254680] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [2]>(YAML::Mark const&, char const (&) [2])':\n"}
+[7.254733] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML12BadSubscriptC2IA2_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA2_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[7.255294] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::BadSubscript::BadSubscript<char [12]>(YAML::Mark const&, char const (&) [12])':\n"}
+[7.255350] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML12BadSubscriptC2IA12_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA12_cEERKNS_4MarkERKT_]+0x61): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[7.255793] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o:bt_nodes.cpp:(.text._ZN4YAML12BadSubscriptC2IA10_cEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IA10_cEERKNS_4MarkERKT_]+0x61): more undefined references to `vtable for YAML::BadSubscript' follow\n"}
+[7.256241] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [10]>(char const (&) [10], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[7.256300] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA10_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[7.256718] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [9]>(char const (&) [9], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[7.256833] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA9_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[7.257133] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::BadSubscript::BadSubscript<int>(YAML::Mark const&, int const&)':\n"}
+[7.257220] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML12BadSubscriptC2IiEERKNS_4MarkERKT_[_ZN4YAML12BadSubscriptC5IiEERKNS_4MarkERKT_]+0x66): undefined reference to `vtable for YAML::BadSubscript'\n"}
+[7.257616] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<int>(int const&, std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[7.257690] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIiEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[7.258141] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::detail::node& YAML::detail::node_data::convert_to_node<char [5]>(char const (&) [5], std::shared_ptr<YAML::detail::memory_holder>)':\n"}
+[7.258282] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML6detail9node_data15convert_to_nodeIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE[_ZN4YAML6detail9node_data15convert_to_nodeIA5_cEERNS0_4nodeERKT_St10shared_ptrINS0_13memory_holderEE]+0x69): undefined reference to `YAML::detail::memory_holder::merge(YAML::detail::memory_holder&)'\n"}
+[7.262646] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o: in function `YAML::TypedBadConversion<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~TypedBadConversion()':\n"}
+[7.262704] (nav_robot) StderrLine: {'line': b"bt_nodes.cpp:(.text._ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED2Ev[_ZN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEED5Ev]+0x26): undefined reference to `YAML::BadConversion::~BadConversion()'\n"}
+[7.263627] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionIdEE[_ZTIN4YAML18TypedBadConversionIdEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'\n"}
+[7.264126] (nav_robot) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o:(.data.rel.ro._ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE[_ZTIN4YAML18TypedBadConversionINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEE]+0x10): undefined reference to `typeinfo for YAML::BadConversion'\n"}
+[7.289132] (nav_robot) StderrLine: {'line': b'/usr/bin/ld: warning: creating DT_TEXTREL in a PIE\n'}
+[7.293220] (nav_robot) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[7.294508] (nav_robot) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/bt_plugin_node.dir/build.make:184: bt_plugin_node] Error 1\n'}
+[7.294702] (nav_robot) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/bt_plugin_node.dir/all] Error 2\n'}
+[7.294850] (nav_robot) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.296401] (nav_robot) CommandEnded: {'returncode': 2}
+[7.322710] (nav_robot) JobEnded: {'identifier': 'nav_robot', 'rc': 2}
+[7.324963] (-) TimerEvent: {}
+[7.333467] (-) EventReactorShutdown: {}

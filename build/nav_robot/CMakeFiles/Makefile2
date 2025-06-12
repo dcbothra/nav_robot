@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/dcbothra2204/ros2_ws/build/nav_robot
 
 # The main recursive "all" target.
 all: CMakeFiles/battery_sim_node.dir/all
+all: CMakeFiles/bt_nodes.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +75,7 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/nav_robot_uninstall.dir/clean
 clean: CMakeFiles/battery_sim_node.dir/clean
+clean: CMakeFiles/bt_nodes.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -153,6 +155,32 @@ battery_sim_node: CMakeFiles/battery_sim_node.dir/rule
 CMakeFiles/battery_sim_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_sim_node.dir/build.make CMakeFiles/battery_sim_node.dir/clean
 .PHONY : CMakeFiles/battery_sim_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bt_nodes.dir
+
+# All Build rule for target.
+CMakeFiles/bt_nodes.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_nodes.dir/build.make CMakeFiles/bt_nodes.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_nodes.dir/build.make CMakeFiles/bt_nodes.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles --progress-num=3,4 "Built target bt_nodes"
+.PHONY : CMakeFiles/bt_nodes.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bt_nodes.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bt_nodes.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dcbothra2204/ros2_ws/build/nav_robot/CMakeFiles 0
+.PHONY : CMakeFiles/bt_nodes.dir/rule
+
+# Convenience name for target.
+bt_nodes: CMakeFiles/bt_nodes.dir/rule
+.PHONY : bt_nodes
+
+# clean rule for target.
+CMakeFiles/bt_nodes.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_nodes.dir/build.make CMakeFiles/bt_nodes.dir/clean
+.PHONY : CMakeFiles/bt_nodes.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

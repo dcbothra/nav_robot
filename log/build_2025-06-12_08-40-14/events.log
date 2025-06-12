@@ -1,0 +1,143 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (nav_robot) JobQueued: {'identifier': 'nav_robot', 'dependencies': OrderedDict()}
+[0.000423] (nav_robot) JobStarted: {'identifier': 'nav_robot'}
+[0.009356] (nav_robot) JobProgress: {'identifier': 'nav_robot', 'progress': 'cmake'}
+[0.010496] (nav_robot) JobProgress: {'identifier': 'nav_robot', 'progress': 'build'}
+[0.010516] (nav_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dcbothra2204/ros2_ws/build/nav_robot', '--', '-j8', '-l8'], 'cwd': '/home/dcbothra2204/ros2_ws/build/nav_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dcbothra2204'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot/lib:/home/dcbothra2204/arm_manip/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dcbothra2204'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '56296'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install:/home/dcbothra2204/arm_manip/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dcbothra2204'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dcbothra2204'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dcbothra2204/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:@/tmp/.ICE-unix/1618,unix/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:/tmp/.ICE-unix/1618'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f12d9300_ea29_451f_815e_7061ebcbbaff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AFTT72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.816'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot:/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_moveit_config:/home/dcbothra2204/arm_manip/install/ur_description:/home/dcbothra2204/arm_manip/install/ur_control:/home/dcbothra2204/arm_manip/install/trac_ik:/home/dcbothra2204/arm_manip/install/trac_ik_examples:/home/dcbothra2204/arm_manip/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dcbothra2204/ros2_ws/build/nav_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot:/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_moveit_config:/home/dcbothra2204/arm_manip/install/ur_description:/home/dcbothra2204/arm_manip/install/ur_control:/home/dcbothra2204/arm_manip/install/trac_ik:/home/dcbothra2204/arm_manip/install/trac_ik_examples:/home/dcbothra2204/arm_manip/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[0.048772] (nav_robot) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bt_nodes\x1b[0m\n'}
+[0.057972] (nav_robot) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/battery_sim_node.dir/scripts/battery_state.cpp.o\x1b[0m\n'}
+[0.062027] (nav_robot) StdoutLine: {'line': b'[ 75%] Built target bt_nodes\n'}
+[0.099881] (-) TimerEvent: {}
+[0.200154] (-) TimerEvent: {}
+[0.300527] (-) TimerEvent: {}
+[0.400898] (-) TimerEvent: {}
+[0.501252] (-) TimerEvent: {}
+[0.601538] (-) TimerEvent: {}
+[0.701905] (-) TimerEvent: {}
+[0.802203] (-) TimerEvent: {}
+[0.902503] (-) TimerEvent: {}
+[1.002877] (-) TimerEvent: {}
+[1.103263] (-) TimerEvent: {}
+[1.203613] (-) TimerEvent: {}
+[1.303966] (-) TimerEvent: {}
+[1.404324] (-) TimerEvent: {}
+[1.504729] (-) TimerEvent: {}
+[1.605109] (-) TimerEvent: {}
+[1.705489] (-) TimerEvent: {}
+[1.805853] (-) TimerEvent: {}
+[1.906134] (-) TimerEvent: {}
+[2.006414] (-) TimerEvent: {}
+[2.106696] (-) TimerEvent: {}
+[2.207054] (-) TimerEvent: {}
+[2.307436] (-) TimerEvent: {}
+[2.407722] (-) TimerEvent: {}
+[2.508100] (-) TimerEvent: {}
+[2.608492] (-) TimerEvent: {}
+[2.708876] (-) TimerEvent: {}
+[2.809258] (-) TimerEvent: {}
+[2.909655] (-) TimerEvent: {}
+[3.010029] (-) TimerEvent: {}
+[3.110417] (-) TimerEvent: {}
+[3.210841] (-) TimerEvent: {}
+[3.311233] (-) TimerEvent: {}
+[3.411554] (-) TimerEvent: {}
+[3.511935] (-) TimerEvent: {}
+[3.612245] (-) TimerEvent: {}
+[3.712644] (-) TimerEvent: {}
+[3.813046] (-) TimerEvent: {}
+[3.913452] (-) TimerEvent: {}
+[4.013782] (-) TimerEvent: {}
+[4.114206] (-) TimerEvent: {}
+[4.214625] (-) TimerEvent: {}
+[4.314981] (-) TimerEvent: {}
+[4.415351] (-) TimerEvent: {}
+[4.515715] (-) TimerEvent: {}
+[4.616064] (-) TimerEvent: {}
+[4.716327] (-) TimerEvent: {}
+[4.816657] (-) TimerEvent: {}
+[4.917021] (-) TimerEvent: {}
+[5.017367] (-) TimerEvent: {}
+[5.117684] (-) TimerEvent: {}
+[5.217934] (-) TimerEvent: {}
+[5.318277] (-) TimerEvent: {}
+[5.418617] (-) TimerEvent: {}
+[5.518878] (-) TimerEvent: {}
+[5.619152] (-) TimerEvent: {}
+[5.719429] (-) TimerEvent: {}
+[5.819712] (-) TimerEvent: {}
+[5.919996] (-) TimerEvent: {}
+[6.020254] (-) TimerEvent: {}
+[6.120623] (-) TimerEvent: {}
+[6.220935] (-) TimerEvent: {}
+[6.321281] (-) TimerEvent: {}
+[6.421649] (-) TimerEvent: {}
+[6.522044] (-) TimerEvent: {}
+[6.622371] (-) TimerEvent: {}
+[6.680747] (nav_robot) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable battery_sim_node\x1b[0m\n'}
+[6.722573] (-) TimerEvent: {}
+[6.822990] (-) TimerEvent: {}
+[6.923473] (-) TimerEvent: {}
+[7.023795] (-) TimerEvent: {}
+[7.025261] (nav_robot) StdoutLine: {'line': b'[100%] Built target battery_sim_node\n'}
+[7.033473] (nav_robot) CommandEnded: {'returncode': 0}
+[7.054841] (nav_robot) JobProgress: {'identifier': 'nav_robot', 'progress': 'install'}
+[7.061962] (nav_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dcbothra2204/ros2_ws/build/nav_robot'], 'cwd': '/home/dcbothra2204/ros2_ws/build/nav_robot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'dcbothra2204'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot/lib:/home/dcbothra2204/arm_manip/install/trac_ik_lib/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dcbothra2204'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '56296'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install:/home/dcbothra2204/arm_manip/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dcbothra2204'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dcbothra2204'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/dcbothra2204/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:@/tmp/.ICE-unix/1618,unix/dcbothra2204-VivoBook-ASUSLaptop-X421EPY-X413EP:/tmp/.ICE-unix/1618'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f12d9300_ea29_451f_815e_7061ebcbbaff'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AFTT72'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.816'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot:/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_moveit_config:/home/dcbothra2204/arm_manip/install/ur_description:/home/dcbothra2204/arm_manip/install/ur_control:/home/dcbothra2204/arm_manip/install/trac_ik:/home/dcbothra2204/arm_manip/install/trac_ik_examples:/home/dcbothra2204/arm_manip/install/trac_ik_lib:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dcbothra2204/ros2_ws/build/nav_robot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dcbothra2204/ros2_ws/install/nav_robot:/home/dcbothra2204/arm_manip/install/ur_simulation:/home/dcbothra2204/arm_manip/install/ur_moveit_config:/home/dcbothra2204/arm_manip/install/ur_description:/home/dcbothra2204/arm_manip/install/ur_control:/home/dcbothra2204/arm_manip/install/trac_ik:/home/dcbothra2204/arm_manip/install/trac_ik_examples:/home/dcbothra2204/arm_manip/install/trac_ik_lib:/opt/ros/humble')]), 'shell': False}
+[7.068570] (nav_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.068719] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml\n'}
+[7.068764] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/library_path.sh\n'}
+[7.068818] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/library_path.dsv\n'}
+[7.069224] (nav_robot) StdoutLine: {'line': b'-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/lib/nav_robot/battery_sim_node\n'}
+[7.071736] (nav_robot) StdoutLine: {'line': b'-- Set runtime path of "/home/dcbothra2204/ros2_ws/install/nav_robot/lib/nav_robot/battery_sim_node" to ""\n'}
+[7.071836] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/lib/libbt_nodes.so\n'}
+[7.071910] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml\n'}
+[7.071985] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf\n'}
+[7.072068] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/gazebo_diff_control.xacro\n'}
+[7.072123] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/robot_core.xacro\n'}
+[7.072176] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/inertial_macros.xacro\n'}
+[7.072229] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/colors.xacro\n'}
+[7.072281] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/imu.xacro\n'}
+[7.072333] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/lidar.xacro\n'}
+[7.072397] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/robot.urdf.xacro\n'}
+[7.072517] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch\n'}
+[7.072566] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/bt_nav.launch.py\n'}
+[7.072606] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/display.launch.py\n'}
+[7.072659] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/gspawn.launch.py\n'}
+[7.072711] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/worlds\n'}
+[7.072790] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/worlds/gazebo.world\n'}
+[7.072844] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps\n'}
+[7.072897] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/amcl_map.yaml\n'}
+[7.072948] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/nav_map.pgm\n'}
+[7.072998] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/amcl_map.pgm\n'}
+[7.073050] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/nav_map.yaml\n'}
+[7.073101] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config\n'}
+[7.073153] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/poses.yaml\n'}
+[7.073203] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/view_bot.rviz\n'}
+[7.073263] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/amcl.yaml\n'}
+[7.073345] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/nav2_params.yaml\n'}
+[7.073400] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/my_controllers.yaml\n'}
+[7.073452] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/mapper_params_online_async.yaml\n'}
+[7.073532] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree\n'}
+[7.073590] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_nodes.cpp\n'}
+[7.073629] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml\n'}
+[7.073674] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/task_bt.xml\n'}
+[7.073712] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/package_run_dependencies/nav_robot\n'}
+[7.073750] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/parent_prefix_path/nav_robot\n'}
+[7.073795] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/ament_prefix_path.sh\n'}
+[7.073831] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/ament_prefix_path.dsv\n'}
+[7.073867] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/path.sh\n'}
+[7.073904] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/path.dsv\n'}
+[7.073941] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.bash\n'}
+[7.073977] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.sh\n'}
+[7.074012] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.zsh\n'}
+[7.074048] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.dsv\n'}
+[7.074086] (nav_robot) StdoutLine: {'line': b'-- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/package.dsv\n'}
+[7.074122] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/packages/nav_robot\n'}
+[7.074158] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/nav2_behavior_tree__pluginlib__plugin/nav_robot\n'}
+[7.074195] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.074231] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.074267] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/nav_robotConfig.cmake\n'}
+[7.074303] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/nav_robotConfig-version.cmake\n'}
+[7.074340] (nav_robot) StdoutLine: {'line': b'-- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/package.xml\n'}
+[7.075454] (nav_robot) CommandEnded: {'returncode': 0}
+[7.108469] (nav_robot) JobEnded: {'identifier': 'nav_robot', 'rc': 0}
+[7.108990] (-) EventReactorShutdown: {}

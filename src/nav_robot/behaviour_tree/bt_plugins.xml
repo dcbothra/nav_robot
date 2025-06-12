@@ -1,0 +1,7 @@
+<library path="bt_nodes">
+  <class name="CheckBatteryLevel" type="CheckBatteryLevel" base_class_type="BT::ConditionNode" />
+  <class name="SimulateCharging" type="SimulateCharging" base_class_type="BT::SyncActionNode" />
+  <class name="ResumeLastTask" type="ResumeLastTask" base_class_type="BT::ActionNodeBase" />
+  <class name="GetNextGoal" type="GetNextGoal" base_class_type="BT::ActionNodeBase" />
+  <class name="DoPickDrop" type="DoPickDrop" base_class_type="BT::SyncActionNode" />
+</library>

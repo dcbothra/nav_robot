@@ -1,0 +1,5 @@
+/usr/bin/ld: cannot find -lnav2_behavior_tree: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/bt_nodes.dir/build.make:398: libbt_nodes.so] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/bt_nodes.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

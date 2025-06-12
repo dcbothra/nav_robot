@@ -1,0 +1,85 @@
+[0.012s] Invoking command in '/home/dcbothra2204/ros2_ws/build/nav_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/ros2_ws/build/nav_robot -- -j8 -l8
+[0.104s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.205s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.218s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.267s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.269s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.275s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.285s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.296s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.327s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.328s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.417s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.463s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[0.484s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.486s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.504s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.505s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.594s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.612s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.674s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.674s] -- Configured cppcheck include dirs: 
+[0.674s] -- Configured cppcheck exclude dirs and/or files: 
+[0.674s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.675s] -- Added test 'lint_cmake' to check CMake code style
+[0.675s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.676s] -- Added test 'uncrustify' to check C / C++ code style
+[0.676s] -- Configured uncrustify additional arguments: 
+[0.677s] -- Added test 'xmllint' to check XML markup files
+[0.677s] -- Configuring done
+[0.690s] -- Generating done
+[0.692s] -- Build files have been written to: /home/dcbothra2204/ros2_ws/build/nav_robot
+[0.713s] [35m[1mConsolidate compiler generated dependencies of target battery_sim_node[0m
+[0.720s] [ 25%] [32mBuilding CXX object CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o[0m
+[0.743s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_sim_node.dir/scripts/battery_state.cpp.o[0m
+[2.979s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus GetNextGoal::tick()[m[K’:
+[2.980s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:80:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kblackboard[m[K’ was not declared in this scope
+[2.980s]    80 |     [01;31m[Kblackboard[m[K()->get("charging_mode", charging);
+[2.980s]       |     [01;31m[K^~~~~~~~~~[m[K
+[2.988s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:[m[K In member function ‘[01m[Kvoid GetNextGoal::declareAndLoadPoses()[m[K’:
+[2.988s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:127:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kblackboard[m[K’ was not declared in this scope
+[2.988s]   127 |       [01;31m[Kblackboard[m[K()->set("charging_station", charging_pose_);
+[2.988s]       |       [01;31m[K^~~~~~~~~~[m[K
+[3.030s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus CheckBatteryLevel::tick()[m[K’:
+[3.030s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:187:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kblackboard[m[K’ was not declared in this scope
+[3.030s]   187 |     [01;31m[Kblackboard[m[K()->set("charging_mode", low);
+[3.030s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.038s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus ResumeLastTask::tick()[m[K’:
+[3.038s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:229:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kblackboard[m[K’ was not declared in this scope
+[3.038s]   229 |     [01;31m[Kblackboard[m[K()->set("charging_mode", false);
+[3.038s]       |     [01;31m[K^~~~~~~~~~[m[K
+[3.583s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.583s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.584s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.584s]                  from [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:5[m[K:
+[3.584s] /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)> >[m[K’:
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:[m[K   recursively required by substitution of ‘[01m[Ktemplate<class MessageT, class CallbackT> struct rclcpp::detail::SubscriptionCallbackTypeHelper<MessageT, CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value, void>::type> [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>][m[K’
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:[m[K   required from ‘[01m[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = sensor_msgs::msg::BatteryState_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = sensor_msgs::msg::BatteryState_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::BatteryState_<std::allocator<void> >; CallbackT = CheckBatteryLevel::CheckBatteryLevel(const string&, const BT::NodeConfiguration&)::<lambda(auto:40)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<sensor_msgs::msg::BatteryState_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::BatteryState_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[3.584s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:174:70:[m[K   required from here
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[3.584s]    51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+[3.584s]       |         [01;31m[K^~~~~~~~~[m[K
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[3.584s]    57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+[3.584s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.584s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[3.584s]    59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+[3.584s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[6.452s] gmake[2]: *** [CMakeFiles/bt_plugin_node.dir/build.make:76: CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o] Error 1
+[6.453s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/bt_plugin_node.dir/all] Error 2
+[6.453s] gmake[1]: *** Waiting for unfinished jobs....
+[10.222s] [ 75%] [32m[1mLinking CXX executable battery_sim_node[0m
+[10.633s] [ 75%] Built target battery_sim_node
+[10.634s] gmake: *** [Makefile:146: all] Error 2
+[10.648s] Invoked command in '/home/dcbothra2204/ros2_ws/build/nav_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/ros2_ws/build/nav_robot -- -j8 -l8

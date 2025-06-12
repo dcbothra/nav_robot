@@ -210,6 +210,43 @@ battery_sim_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/battery_sim_node.dir/build.make CMakeFiles/battery_sim_node.dir/build
 .PHONY : battery_sim_node/fast
 
+#=============================================================================
+# Target rules for targets named bt_nodes
+
+# Build rule for target.
+bt_nodes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bt_nodes
+.PHONY : bt_nodes
+
+# fast build rule for target.
+bt_nodes/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_nodes.dir/build.make CMakeFiles/bt_nodes.dir/build
+.PHONY : bt_nodes/fast
+
+behaviour_tree/bt_nodes.o: behaviour_tree/bt_nodes.cpp.o
+.PHONY : behaviour_tree/bt_nodes.o
+
+# target to build an object file
+behaviour_tree/bt_nodes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_nodes.dir/build.make CMakeFiles/bt_nodes.dir/behaviour_tree/bt_nodes.cpp.o
+.PHONY : behaviour_tree/bt_nodes.cpp.o
+
+behaviour_tree/bt_nodes.i: behaviour_tree/bt_nodes.cpp.i
+.PHONY : behaviour_tree/bt_nodes.i
+
+# target to preprocess a source file
+behaviour_tree/bt_nodes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_nodes.dir/build.make CMakeFiles/bt_nodes.dir/behaviour_tree/bt_nodes.cpp.i
+.PHONY : behaviour_tree/bt_nodes.cpp.i
+
+behaviour_tree/bt_nodes.s: behaviour_tree/bt_nodes.cpp.s
+.PHONY : behaviour_tree/bt_nodes.s
+
+# target to generate assembly for a file
+behaviour_tree/bt_nodes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bt_nodes.dir/build.make CMakeFiles/bt_nodes.dir/behaviour_tree/bt_nodes.cpp.s
+.PHONY : behaviour_tree/bt_nodes.cpp.s
+
 scripts/battery_state.o: scripts/battery_state.cpp.o
 .PHONY : scripts/battery_state.o
 
@@ -250,6 +287,10 @@ help:
 	@echo "... nav_robot_uninstall"
 	@echo "... uninstall"
 	@echo "... battery_sim_node"
+	@echo "... bt_nodes"
+	@echo "... behaviour_tree/bt_nodes.o"
+	@echo "... behaviour_tree/bt_nodes.i"
+	@echo "... behaviour_tree/bt_nodes.s"
 	@echo "... scripts/battery_state.o"
 	@echo "... scripts/battery_state.i"
 	@echo "... scripts/battery_state.s"

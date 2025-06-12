@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target bt_plugin_node[0m
+[35m[1mConsolidate compiler generated dependencies of target battery_sim_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/bt_plugin_node.dir/behaviour_tree/bt_nodes.cpp.o[0m
+[ 75%] Built target battery_sim_node

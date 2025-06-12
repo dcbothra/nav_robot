@@ -1,1 +1,0 @@
-/home/dcbothra2204/ros2_ws/src/nav_robot/launch/display_launch.py

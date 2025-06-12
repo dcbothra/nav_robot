@@ -1,23 +1,20 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
   <world name="simple_world">
-    <!-- Physics -->
+
     <physics type="ode">
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1</real_time_factor>
     </physics>
 
-    <!-- Ground Plane -->
     <include>
       <uri>model://ground_plane</uri>
     </include>
 
-    <!-- Light -->
     <include>
       <uri>model://sun</uri>
     </include>
 
-    <!-- Four walls -->
     <model name="wall_1">
       <static>true</static>
       <pose>0 5 0.5 0 0 0</pose>
@@ -102,7 +99,6 @@
       </link>
     </model>
 
-    <!-- Charging dock (simple box) -->
     <model name="charging_dock">
       <static>true</static>
       <pose>-4.5 0 0 0 0 0</pose>
@@ -121,13 +117,12 @@
             </box>
           </geometry>
           <material>
-            <ambient>0.0 1.0 0.0 1</ambient> <!-- Green -->
+            <ambient>0.0 1.0 0.0 1</ambient>
           </material>
         </visual>
       </link>
     </model>
 
-    <!-- 📦 Obstacle 1: Small crate -->
     <model name="crate_1">
       <static>true</static>
       <pose>2 2 0.25 0 0 0</pose>
@@ -142,13 +137,12 @@
             <box><size>0.5 0.5 0.5</size></box>
           </geometry>
           <material>
-            <ambient>0.8 0.3 0.1 1</ambient> <!-- Brownish -->
+            <ambient>0.8 0.3 0.1 1</ambient> 
           </material>
         </visual>
       </link>
     </model>
 
-    <!-- 📦 Obstacle 2: Another crate -->
     <model name="crate_2">
       <static>true</static>
       <pose>-1 3 0.25 0 0 0</pose>
@@ -163,13 +157,12 @@
             <box><size>0.5 0.5 0.5</size></box>
           </geometry>
           <material>
-            <ambient>0.2 0.2 0.7 1</ambient> <!-- Blue-ish -->
+            <ambient>0.2 0.2 0.7 1</ambient> 
           </material>
         </visual>
       </link>
     </model>
 
-    <!-- 🗼 Obstacle 3: Pillar -->
     <model name="pillar">
       <static>true</static>
       <pose>-3 -2 0.5 0 0 0</pose>
@@ -190,7 +183,6 @@
       </link>
     </model>
 
-    <!-- 🪑 Obstacle 4: Bench-like bar -->
     <model name="crate_3">
       <static>true</static>
       <pose>2 -2 0.2 0 0 0</pose>

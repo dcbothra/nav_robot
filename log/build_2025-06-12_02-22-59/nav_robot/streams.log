@@ -1,0 +1,50 @@
+[0.010s] Invoking command in '/home/dcbothra2204/ros2_ws/build/nav_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/ros2_ws/build/nav_robot -- -j8 -l8
+[0.054s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.163s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.191s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.194s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.199s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.209s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.221s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.252s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.254s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.340s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.384s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.410s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.425s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.502s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.508s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.510s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.533s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.534s] -- Found nav2_behavior_tree: 1.1.18 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+[0.626s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.710s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.710s] -- Configured cppcheck include dirs: 
+[0.710s] -- Configured cppcheck exclude dirs and/or files: 
+[0.711s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.712s] -- Added test 'lint_cmake' to check CMake code style
+[0.713s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.714s] -- Added test 'uncrustify' to check C / C++ code style
+[0.714s] -- Configured uncrustify additional arguments: 
+[0.715s] -- Added test 'xmllint' to check XML markup files
+[0.718s] -- Configuring done
+[0.755s] -- Generating done
+[0.758s] -- Build files have been written to: /home/dcbothra2204/ros2_ws/build/nav_robot
+[0.780s] [35m[1mConsolidate compiler generated dependencies of target battery_sim_node[0m
+[0.780s] [35m[1mConsolidate compiler generated dependencies of target bt_nodes[0m
+[0.804s] [ 50%] [32mBuilding CXX object CMakeFiles/bt_nodes.dir/behaviour_tree/bt_nodes.cpp.o[0m
+[0.804s] [ 75%] Built target battery_sim_node
+[5.008s] In file included from [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:1[m[K:
+[5.008s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:113:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-function-Wunused-function]8;;[m[K]
+[5.008s]   113 |   BTCPP_EXPORT void [01;35m[KBT_RegisterNodesFromPlugin[m[K(BT::BehaviorTreeFactory& factory)
+[5.008s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.008s] [01m[K/home/dcbothra2204/ros2_ws/src/nav_robot/behaviour_tree/bt_nodes.cpp:249:1:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KBT_REGISTER_NODES[m[K’
+[5.008s]   249 | [01;36m[KBT_REGISTER_NODES[m[K(factory)
+[5.008s]       | [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[7.964s] [100%] [32m[1mLinking CXX shared library libbt_nodes.so[0m
+[8.176s] /usr/bin/ld: cannot find -lnav2_behavior_tree: No such file or directory
+[8.323s] collect2: error: ld returned 1 exit status
+[8.325s] gmake[2]: *** [CMakeFiles/bt_nodes.dir/build.make:398: libbt_nodes.so] Error 1
+[8.325s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/bt_nodes.dir/all] Error 2
+[8.325s] gmake: *** [Makefile:146: all] Error 2
+[8.327s] Invoked command in '/home/dcbothra2204/ros2_ws/build/nav_robot' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/ros2_ws/build/nav_robot -- -j8 -l8

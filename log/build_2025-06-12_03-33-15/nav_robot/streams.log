@@ -1,0 +1,107 @@
+[0.008s] Invoking command in '/home/dcbothra2204/ros2_ws/build/nav_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/ros2_ws/src/nav_robot -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/ros2_ws/install/nav_robot
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.101s] -- The CXX compiler identification is GNU 11.4.0
+[0.106s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.169s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.169s] -- Detecting C compile features
+[0.170s] -- Detecting C compile features - done
+[0.172s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.243s] -- Detecting CXX compile features - done
+[0.246s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.356s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.431s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.467s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.471s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.478s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.537s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.539s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.608s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.629s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.661s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.669s] -- Looking for pthread.h
+[0.731s] -- Looking for pthread.h - found
+[0.732s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.785s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.786s] -- Found Threads: TRUE  
+[0.824s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.846s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.859s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.932s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[0.945s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.946s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.946s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.971s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[0.973s] -- Found nav2_behavior_tree: 1.1.18 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+[1.118s] -- Configuring done
+[1.146s] -- Generating done
+[1.148s] -- Build files have been written to: /home/dcbothra2204/ros2_ws/build/nav_robot
+[1.158s] Invoked command in '/home/dcbothra2204/ros2_ws/build/nav_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dcbothra2204/ros2_ws/src/nav_robot -DCMAKE_INSTALL_PREFIX=/home/dcbothra2204/ros2_ws/install/nav_robot
+[1.160s] Invoking command in '/home/dcbothra2204/ros2_ws/build/nav_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/ros2_ws/build/nav_robot -- -j8 -l8
+[1.190s] [35m[1mConsolidate compiler generated dependencies of target battery_sim_node[0m
+[1.190s] [35m[1mConsolidate compiler generated dependencies of target bt_nodes[0m
+[1.202s] [ 50%] Built target battery_sim_node
+[1.202s] [100%] Built target bt_nodes
+[1.211s] Invoked command in '/home/dcbothra2204/ros2_ws/build/nav_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/ros2_ws/build/nav_robot -- -j8 -l8
+[1.238s] Invoking command in '/home/dcbothra2204/ros2_ws/build/nav_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/ros2_ws/build/nav_robot
+[1.244s] -- Install configuration: ""
+[1.244s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml
+[1.244s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/library_path.sh
+[1.244s] -- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/library_path.dsv
+[1.244s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/lib/nav_robot/battery_sim_node
+[1.244s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/lib/libbt_nodes.so
+[1.244s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml
+[1.244s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/gazebo_diff_control.xacro
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/robot_core.xacro
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/inertial_macros.xacro
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/colors.xacro
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/imu.xacro
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/lidar.xacro
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/robot.urdf.xacro
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch
+[1.245s] -- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/bt_nav.launch.py
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/display.launch.py
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/gspawn.launch.py
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/worlds
+[1.245s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/worlds/gazebo.world
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/amcl_map.yaml
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/nav_map.pgm
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/amcl_map.pgm
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/nav_map.yaml
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/poses.yaml
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/view_bot.rviz
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/amcl.yaml
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/nav2_params.yaml
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/my_controllers.yaml
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/mapper_params_online_async.yaml
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_nodes.cpp
+[1.246s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml
+[1.247s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/task_bt.xml
+[1.247s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/package_run_dependencies/nav_robot
+[1.247s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/parent_prefix_path/nav_robot
+[1.247s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/ament_prefix_path.sh
+[1.247s] -- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/ament_prefix_path.dsv
+[1.247s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/path.sh
+[1.247s] -- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/path.dsv
+[1.247s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.bash
+[1.247s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.sh
+[1.247s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.zsh
+[1.247s] -- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.dsv
+[1.248s] -- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/package.dsv
+[1.248s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/packages/nav_robot
+[1.248s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/nav2_behavior_tree__pluginlib__plugin/nav_robot
+[1.248s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/ament_cmake_export_libraries-extras.cmake
+[1.248s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.248s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/nav_robotConfig.cmake
+[1.248s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/nav_robotConfig-version.cmake
+[1.248s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/package.xml
+[1.249s] Invoked command in '/home/dcbothra2204/ros2_ws/build/nav_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/ros2_ws/build/nav_robot

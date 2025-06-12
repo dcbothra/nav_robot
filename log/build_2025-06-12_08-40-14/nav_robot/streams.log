@@ -1,0 +1,65 @@
+[0.012s] Invoking command in '/home/dcbothra2204/ros2_ws/build/nav_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/ros2_ws/build/nav_robot -- -j8 -l8
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target bt_nodes[0m
+[0.058s] [ 25%] [32mBuilding CXX object CMakeFiles/battery_sim_node.dir/scripts/battery_state.cpp.o[0m
+[0.062s] [ 75%] Built target bt_nodes
+[6.680s] [100%] [32m[1mLinking CXX executable battery_sim_node[0m
+[7.025s] [100%] Built target battery_sim_node
+[7.033s] Invoked command in '/home/dcbothra2204/ros2_ws/build/nav_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dcbothra2204/ros2_ws/build/nav_robot -- -j8 -l8
+[7.062s] Invoking command in '/home/dcbothra2204/ros2_ws/build/nav_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/ros2_ws/build/nav_robot
+[7.068s] -- Install configuration: ""
+[7.068s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml
+[7.068s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/library_path.sh
+[7.068s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/library_path.dsv
+[7.069s] -- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/lib/nav_robot/battery_sim_node
+[7.071s] -- Set runtime path of "/home/dcbothra2204/ros2_ws/install/nav_robot/lib/nav_robot/battery_sim_node" to ""
+[7.071s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/lib/libbt_nodes.so
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/gazebo_diff_control.xacro
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/robot_core.xacro
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/inertial_macros.xacro
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/colors.xacro
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/imu.xacro
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/lidar.xacro
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/urdf/robot.urdf.xacro
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/bt_nav.launch.py
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/display.launch.py
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/launch/gspawn.launch.py
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/worlds
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/worlds/gazebo.world
+[7.072s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/amcl_map.yaml
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/nav_map.pgm
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/amcl_map.pgm
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/maps/nav_map.yaml
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/poses.yaml
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/view_bot.rviz
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/amcl.yaml
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/nav2_params.yaml
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/my_controllers.yaml
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/config/mapper_params_online_async.yaml
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_nodes.cpp
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/bt_plugins.xml
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/behaviour_tree/task_bt.xml
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/package_run_dependencies/nav_robot
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/parent_prefix_path/nav_robot
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/ament_prefix_path.sh
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/ament_prefix_path.dsv
+[7.073s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/path.sh
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/environment/path.dsv
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.bash
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.sh
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.zsh
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/local_setup.dsv
+[7.074s] -- Installing: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/package.dsv
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/packages/nav_robot
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/ament_index/resource_index/nav2_behavior_tree__pluginlib__plugin/nav_robot
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/ament_cmake_export_libraries-extras.cmake
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/nav_robotConfig.cmake
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/cmake/nav_robotConfig-version.cmake
+[7.074s] -- Up-to-date: /home/dcbothra2204/ros2_ws/install/nav_robot/share/nav_robot/package.xml
+[7.075s] Invoked command in '/home/dcbothra2204/ros2_ws/build/nav_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dcbothra2204/ros2_ws/build/nav_robot

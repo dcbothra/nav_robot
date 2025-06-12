@@ -1,1 +1,1 @@
-/home/dcbothra2204/ros2_ws/build/nav_robot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/nav_robot
+rclcpp;sensor_msgs;nav_msgs;yaml-cpp;geometry_msgs;ament_index_cpp;urdf;xacro;robot_state_publisher;tf2_ros;nav2_bt_navigator;ros2launch;nav2_behavior_tree;pluginlib;nav2_navfn_planner;ament_lint_auto;ament_lint_common
